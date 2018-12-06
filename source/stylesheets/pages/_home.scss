@@ -1,17 +1,30 @@
-#home {
-  background-color: #D23333;
-  color: white;
-  height: 100vh;
+.home-container {
+  margin-top: 20px;
+  background-color: transparent;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  height: 85vh;
   display: flex;
-  align-items: center;
   justify-content: space-around;
   text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
+  align-items: center;
+}
+
+.profile-info {
+  width: 600px;
+  height: 100%;
+  margin-left: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h1 {
+    font-size: 30px;
     color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
   }
 }
+
+.name {
+  color: #4F32B6;
+}
+
