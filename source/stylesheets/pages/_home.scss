@@ -48,6 +48,10 @@
   &:hover {
     text-decoration: none;
   }
+  &:visited {
+    color: white;
+    text-decoration: none
+  }
 }
 
 .linked-in:hover {
@@ -99,14 +103,14 @@
   }
 
   100% {
-    transform: translateY(-6px);
+    transform: translateY(-10px);
   }
 }
 
 @keyframes hover-shadow {
   0% {
     transform: translateY(6px);
-    opacity: .4;
+    opacity: .6;
   }
 
   50% {
@@ -117,7 +121,7 @@
 
   100% {
     transform: translateY(6px);
-    opacity: .4;
+    opacity: .6;
   }
 }
 
@@ -146,7 +150,7 @@
   }
 
   &:hover {
-    transform: translateY(-6px);
+    transform: translateY(-10px);
     animation-name: hover;
     animation-duration: 1.5s;
     animation-delay: 0.5s;
@@ -155,8 +159,8 @@
     animation-direction: alternate;
 
     &:before {
-      opacity: .4;
-      transform: translateY(6px);
+      opacity: .6;
+      transform: translateY(10px);
       animation-name: hover-shadow;
       animation-duration: 1.5s;
       animation-delay: .0.5s;

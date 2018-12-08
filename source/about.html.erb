@@ -1,24 +1,22 @@
----
-title: Le Wagon - Middleman - About
----
-
-<div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fas fa-heart"></i> by</h1>
-    <ul class="list-inline">
-      <% data.users.each do |user| %>
-        <li>
-          <% link_to "https://kitt.lewagon.com/alumni/#{user.github_nickname}", target: "_blank" do %>
-            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{user.github_nickname}", class: "img-circle" %>
-          <% end %>
-          <h2><%= user.name %></h2>
-          <p>
-            <% link_to "https://github.com/#{user.github_nickname}", target: "_blank" do %>
-              <i class="fab fa-github"></i> <%= user.github_nickname %>
-            <% end %>
-          </p>
-        </li>
-      <% end %>
-    </ul>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="about-card">
+        <div class="about-info">
+          <div class="about-info-first info-sections">
+            <h1>I</h1>
+            <p>learned my skills to become a web developer doing a 9 week intensive course at the #1 coding bootcamp in europe, <a href="https://www.lewagon.com/" style="color: #D23333" target="_blank">LE WAGON</a>.</p>
+          </div>
+          <div class="about-info-second info-sections">
+            <h1>ALSO</h1>
+            <p>whilst learning web development, I've also taken to design and I'm beginning to delve into my more creative side.</p>
+          </div>
+          <div class="about-info-third info-sections">
+            <h1>WHEN</h1>
+            <p>I'm not debugging code and boxing shadows, I like to watch and play sports (football mainly), cycle, socialise and explore.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
