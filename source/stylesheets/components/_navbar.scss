@@ -36,7 +36,7 @@
 /* Basic navbar item */
 .navbar-wagon-item {
   cursor: pointer;
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 
 /* Navbar link */
@@ -45,8 +45,9 @@
   font-size: 14px;
 }
 .navbar-wagon-link:hover {
-  color: #EEE1CD;
+  color: #F4F4F4;
   text-decoration: none;
+  border-bottom: 3px solid #F4F4F4;
 }
 
 /* Dropdown menu */
@@ -78,4 +79,8 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+.line-break {
+  color: white;
 }
